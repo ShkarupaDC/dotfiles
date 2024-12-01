@@ -1,0 +1,19 @@
+# theme
+import = [
+    "~/.config/alacritty/themes/themes/github_dark.toml"
+]
+
+[window]
+startup_mode = "Maximized"
+
+[font]
+size = 14.0
+
+[selection]
+save_to_clipboard = true
+
+# spawn new instance in the cwd by pressing Ctrl+Shift+Enter
+[[keyboard.bindings]]
+key = "Return"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
